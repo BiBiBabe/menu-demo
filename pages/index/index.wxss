@@ -1,0 +1,41 @@
+/* pages/index/index.wxss */
+
+.page{
+  padding: 40rpx;
+}
+.list{
+  background: #fff;
+  border-radius: 3px;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  padding: 30rpx;
+  /* border-bottom: 1rpx solid #ccc; */
+}
+.item_img{
+  width: 200rpx;
+  height: 150rpx;
+  margin-right: 20rpx;
+}
+.item_main{
+  width: 64%;
+  line-height: 44rpx;
+}
+.item_main_title{
+  font-size: 30rpx;
+  color: #000000;
+}
+.item_main_sub{
+  font-size: 26rpx;
+  color: #999999;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.item_main_price{
+  font-size: 30rpx;
+  color: #F0422C;
+  margin-top: 20rpx;
+}
