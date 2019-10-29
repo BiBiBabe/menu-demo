@@ -1,2 +1,21 @@
 <!--pages/detail/index.wxml-->
-<text>pages/detail/index.wxml</text>
+<view class="page">
+  <view class="header">
+    <image class="header_img" src="{{detail.img}}" />
+  </view>
+  <view class="main">
+    <view class="main_title">{{detail.title}}</view>
+    <view class="main_sub">月售{{detail.mouthNum}}</view>
+    <view class="main_content">
+      <text class="main_text">￥{{detail.price}}</text>
+      <image class="main_img" src="../../images/detail/16pic_2144587_b.png" />
+    </view>
+  </view>
+  <view class="footer">
+    <view class="title">商品详情</view>
+    <view class="footer_item" wx:for="{{detail.list}}">
+      <text class="footer_title">{{item.title}}: </text>
+      <text class="footer_content">{{item.content}}</text>
+    </view>
+  </view>
+</view>

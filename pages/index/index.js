@@ -11,6 +11,11 @@ Page({
       { id: '3', img: '../../images/index/b1181127267.jpg', title: '台湾卤肉饭', subtitle: '原味、茄子、卤肉、黄玉米', price: '25.9' },
       { id: '4', img: '../../images/index/b1181127267.jpg', title: '台湾卤肉饭', subtitle: '原味、茄子、卤肉、黄玉米', price: '25.9' },
       { id: '5', img: '../../images/index/b1181127267.jpg', title: '台湾卤肉饭', subtitle: '原味、茄子、卤肉、黄玉米', price: '25.9' },
+    ],
+    imgList: [
+      { id: '', img: '../../images/lunbo/pic1.jpeg', link: '' },
+      { id: '', img: '../../images/lunbo/pic2.jpg', link: '' },
+      { id: '', img: '../../images/lunbo/pic3.jpg', link: '' },
     ]
   },
 

@@ -1,11 +1,14 @@
 /* pages/index/index.wxss */
 
 .page{
-  padding: 40rpx;
+}
+.swiper-img{
+  width: 100%;
 }
 .list{
   background: #fff;
   border-radius: 3px;
+  margin: 40rpx;
 }
 .item{
   display: flex;
