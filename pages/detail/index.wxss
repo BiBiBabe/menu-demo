@@ -2,9 +2,11 @@
 
 .header{
   text-align: center;
+  background: #fff;
 }
 .main{
   padding: 40rpx;
+  background: #fff;
 }
 .main_title{
   font-size: 36rpx;
@@ -34,8 +36,17 @@
   width: 40rpx;
   height: 40rpx;
 }
+.main_add{
+  font-size: 28rpx;
+  color: #4288E9;
+  background: rgba(66,136,233,0.10);
+  border-radius: 22rpx;
+  padding: 4rpx 20rpx;
+}
 .footer{
   padding: 40rpx;
+  margin-top: 20rpx;
+  background: #fff;
 }
 .footer_content{
   color: #000000;
@@ -45,4 +56,9 @@
 }
 .footer_item{
   line-height: 1.8;
+}
+.footer_text{
+  font-size: 28rpx;
+  color: #999999;
+  margin: 10rpx 0;
 }

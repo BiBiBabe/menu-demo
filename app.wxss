@@ -3,7 +3,7 @@
 page {
   /* font-size: 16rpx; */
   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-  background: #f8f8f8;
+  background: rgba(220, 220, 220, 0.3);
   min-height: 100%;
   box-sizing: border-box;
 }
