@@ -38,5 +38,6 @@
         "selectedIconPath": "/images/tab/my@highlight.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
