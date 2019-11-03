@@ -1,2 +1,19 @@
 <!--pages/my/index.wxml-->
-<text>pages/my/index.wxml</text>
+<view class="">
+  <view class="header">
+    <view class="header_img"><open-data type="userAvatarUrl"></open-data></view>
+    <view class="header_name">
+      <open-data type="userNickName"></open-data>
+      <view class="header_phone">1314****565</view>
+    </view>
+  </view>
+  <view class="list">
+    <view class="item" wx:for="{{list}}">
+      <view class="item_title">{{item.title}}</view>
+      <image class="item_img" src="../../images/my/arrow.svg" />
+    </view>
+  </view>
+  <view class="item quit">
+    <view class="item_title">退出账号</view>
+  </view>
+</view>
